@@ -1,0 +1,35 @@
+# pound key for linewise comment
+# m n // m ~ #(human), n ~ #(bikes), m<n
+# y_0 x_0 
+# y_1 x_1 
+# ...
+# y_{m+n-1} x_{m+n-1} // m lines for human coords, then n lines for bike coords
+#
+# example:
+# 2 3
+# 1 0
+# 0 1
+# 3 3
+# 2 0
+# 2 2
+#
+#.---->(x)
+#|OPOO
+#|POOO
+#|BOBO
+#|OOOB
+#v(y)
+#
+# optimal:=1+3=4
+#
+4 6
+0 0
+1 3
+1 5
+4 0
+1 0
+2 2
+3 4
+3 5
+4 4
+4 5
